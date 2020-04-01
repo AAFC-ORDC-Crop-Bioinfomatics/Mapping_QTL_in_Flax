@@ -1,7 +1,9 @@
 # A User Guide for Mapping QTL onto the Most Recent Release of the Chromosome-scale Pseudomolecules in Flax
 
 *Frank M. You and Sylvie Cloutier*
+
 *Ottawa Research and Development Centre, Agriculture and Agri-Food Canada, Ottawa, ON K1A 0C6, Canada*
+
 
 This user guide provides a brief description of the methods with their
 software tools and database files for mapping QTL onto the most recent
@@ -10,7 +12,7 @@ release of the chromosome-scale pseudomolecules in flax (You et al.
 
 In the supplementary files, there is a folder named "program\_packages"
 that contains four Perl scripts (Program\_S\[1-4\]\_\*.pl), a user guide
-document (UserGuideS1.doc), and two subfolders "sample\_data" and
+document (UserGuide_S1.pdf), and two subfolders "sample\_data" and
 "database\_files". Please copy all scripts and files in the two
 subfolders to a working folder.
 
@@ -134,14 +136,14 @@ columns separated by a tab key (\\t). The last column is the amplicon
 size range of the PCR marker. It must have the following format:
 
 ```
-  Primer ID	Forward Primer	Reverse Primer	Size range
-| Lu2164    | GCATGATCGTTACTTTAGGATGC   | AATGACGCCATCTTTTGTCC  | 50-1500 |
-| Lu2183    | CTTCATGCAGTCCGTTTTTACA    | CAGTTCGTAGTTTACTTGGTGCAG | 50-1500 |
-| Lu2532    | GGATAGAAGCTCACCGATGC      | TTCAGAGCACCAGCAGAAAA     | 50-1500 |
-| Lu2545    | TGCTTTGCTAATTTATTATGGTGAG | ATGGTAGCTGGTGGGTGAAC     | 50-1500 |
-| Lu2555    | TCCCGCTTTTAATGGTGTTC      | AATTGGAAGCTCGATTCACG     | 50-1500 |
-| Lu2560    | CGTGGCTACTAGCAATGTGG      | TCCTCATGTTCATTGCTTGC     | 50-1500 |
-| Lu2564    | TTTCAGCTTCGATTGAGACG      | ATCCGTCGAGGTAACAGTCC     | 50-1500 |
+  Primer ID	Forward Primer	           Reverse Primer	 Size range
+  Lu2164     GCATGATCGTTACTTTAGGATGC    AATGACGCCATCTTTTGTCC       50-1500 
+  Lu2183     CTTCATGCAGTCCGTTTTTACA     CAGTTCGTAGTTTACTTGGTGCAG   50-1500 
+  Lu2532     GGATAGAAGCTCACCGATGC       TTCAGAGCACCAGCAGAAAA       50-1500 
+  Lu2545     TGCTTTGCTAATTTATTATGGTGAG  ATGGTAGCTGGTGGGTGAAC       50-1500 
+  Lu2555     TCCCGCTTTTAATGGTGTTC       AATTGGAAGCTCGATTCACG       50-1500 
+  Lu2560     CGTGGCTACTAGCAATGTGG       TCCTCATGTTCATTGCTTGC       50-1500 
+  Lu2564     TTTCAGCTTCGATTGAGACG       ATCCGTCGAGGTAACAGTCC       50-1500 
 ```
 
 The "flax\_new\_pseudo\_1.hash" and "flax\_new\_pseudo\_1.famap"
@@ -152,18 +154,18 @@ An output file
 be generated: 
 
 ```
- \#-sts	seq	strand	from	to	mism	gaps	act\_len/exp\_len
- Lu2164	1      - | 22948222 | 22948580 | 0 | 0 | 359/50-1500 |
- Lu2183	1      - | 26435050 | 26435329 | 0 | 0 | 280/50-1500 |
- Lu2555	6      + | 14948801 | 14948986 | 0 | 0 | 186/50-1500 |
- Lu2560	6      - | 13553559 | 13553779 | 0 | 0 | 221/50-1500 |
- Lu2564	6      - | 13620999 | 13621234 | 0 | 0 | 236/50-1500 |
- Lu2532	7      - | 661757   | 662020   | 0 | 0 | 264/50-1500 |
+ \#-sts	seq   strand   from	  to	   mism	  gaps	act\_len/exp\_len
+ Lu2164	1      -      22948222   22948580   0      0      359/50-1500 
+ Lu2183	1      -      26435050   26435329   0      0      280/50-1500 
+ Lu2555	6      +      14948801   14948986   0      0      186/50-1500 
+ Lu2560	6      -      13553559   13553779   0      0      221/50-1500 
+ Lu2564	6      -      13620999   13621234   0      0      236/50-1500 
+ Lu2532	7      -      661757     662020     0      0      264/50-1500 
  \#-
  Done
 ```
 
-##3.  Mapping SNPs on scaffold reference sequences to the most recent release of the chromosome-scale pseudomolecules
+## 3.  Mapping SNPs on scaffold reference sequences to the most recent release of the chromosome-scale pseudomolecules
 
 Usage:
 
@@ -177,21 +179,21 @@ name, scaffold IDs and coordinates
 The "program\_S3\_sample\_marker\_data.txt" is a sample marker data file
 that must contain three columns separated by a tab key (\\t):
 
-  ---------------------- -------------- --------------------------
- | Marker                 Scaffold ID    Coordinate\_on\_scaffold
- | scaffold112\_114241    scaffold112    114241
- | scaffold1491\_318496   scaffold1491   318496
- | scaffold31\_1800846    scaffold31     1800846
- | scaffold344\_309662    scaffold344    309662
- | scaffold51\_1349321    scaffold51     1349321
- | scaffold59\_572553     scaffold59     572553
- | scaffold156\_641874    scaffold156    641874
- | scaffold147\_367986    scaffold147    367986
- | scaffold859\_123972    scaffold859    123972
- | scaffold297\_275113    scaffold297    275113
+```
+  Marker                 Scaffold ID    Coordinate\_on\_scaffold
+  scaffold112\_114241    scaffold112    114241
+  scaffold1491\_318496   scaffold1491   318496
+  scaffold31\_1800846    scaffold31     1800846
+  scaffold344\_309662    scaffold344    309662
+  scaffold51\_1349321    scaffold51     1349321
+  scaffold59\_572553     scaffold59     572553
+  scaffold156\_641874    scaffold156    641874
+  scaffold147\_367986    scaffold147    367986
+  scaffold859\_123972    scaffold859    123972
+  scaffold297\_275113    scaffold297    275113
   scaffold361\_14957     scaffold361    14957
   scaffold273\_68457     scaffold273    68457
-  ---------------------- -------------- --------------------------
+```
 
 The
 "TableS4\_flax\_scaffolds\_corrdinates\_in\_new\_pseudomolecules.txt" is
@@ -201,60 +203,55 @@ package.
 
 **Example:**
 
-perl ProgramS3\_convert\_scaffold\_coordinates\_to\_pseudochr.pl -m
-TableS4\_flax\_scaffolds\_corrdinates\_in\_new\_pseudomolecules.txt -d
-program\_S3\_sample\_marker\_data.txt
+```
+perl ProgramS3\_convert\_scaffold\_coordinates\_to\_pseudochr.pl 
+  -m TableS4\_flax\_scaffolds\_corrdinates\_in\_new\_pseudomolecules.txt 
+  -d program\_S3\_sample\_marker\_data.txt
+```
 
 A "program\_S3\_sample\_marker\_data.txt.converted.txt" will be
 generated:
 
-  -- -- -- -- --
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-  -- -- -- -- --
-
-MarkerScaffold
-IDCoordinate\_on\_scaffoldChrNew\_Chr\_Coordscaffold112\_114241scaffold112114241118444086scaffold1491\_318496scaffold1491318496614006651scaffold31\_1800846scaffold31180084633929932scaffold344\_309662scaffold344309662111008279scaffold51\_1349321scaffold511349321410532424scaffold59\_572553scaffold59572553110051709scaffold156\_641874scaffold15664187435906791scaffold147\_367986scaffold147367986511288517scaffold859\_123972scaffold859123972151939372scaffold297\_275113scaffold297275113116435852scaffold361\_14957scaffold36114957116726904scaffold273\_68457scaffold273684578585113
+```
+Marker        Scaffold ID Coordinate\_on\_scaffold ChrNew\_Chr\_Coord
+scaffold112\_114241   scaffold112114241118444086
+scaffold1491\_318496  scaffold1491318496614006651
+scaffold31\_1800846   scaffold31180084633929932
+scaffold344\_309662   scaffold344309662111008279
+scaffold51\_1349321   scaffold511349321410532424
+scaffold59\_572553    scaffold59572553110051709
+scaffold156\_641874   scaffold15664187435906791
+scaffold147\_367986   scaffold147367986511288517
+scaffold859\_123972   scaffold859123972151939372
+scaffold297\_275113   scaffold297275113116435852
+scaffold361\_14957    scaffold36114957116726904
+scaffold273\_68457    scaffold273684578585113
+```
 
 The last two columns are the converted results, including chromosome
 numbers and new coordinates on chromosomes.
 
-4.  **Candidate Gene Scanning of QTL**
+## 4.  Candidate Gene Scanning of QTL
 
 Usage:
 
+```
 perl ProgramS4\_flax\_QTL\_candidate\_gene\_scanning.pl
-
--q QTL file
-
--d gene annotation file
-
--w upstream or downstream window size (bp) (default: 100000 bp)
+  -q QTL file
+  -d gene annotation file
+  -w upstream or downstream window size (bp) (default: 100000 bp)
+```
 
 A sample data file for QTL data "program\_S4\_sample\_qtl\_data.txt" is
 provided in the program package. This file must have four columns
 separated by a tab key (\\t):
 
-  -- -- -- -- --
-              
-              
-              
-              
-  -- -- -- -- --
-
-TraitQTLChrCoord\_startCoord\_endPMQPM-crc-LG1
-11692040718739647PMQPM-crc-LG7738176033817863PMQPM-crc-LG99357191357510
+```
+Trait    QTL           Chr    Coord\_start    Coord\_end
+PM       QPM-crc-LG1	1     16920407        18739647
+PM       QPM-crc-LG7    7     3817603         3817863
+PM       QPM-crc-LG9    9     357191          357510
+```
 
 The gene annotation files "TableS6\_flax\_RGA\_coords.txt" and
 "TableS5\_flax\_all\_genes\_coords.txt" are two database files that
