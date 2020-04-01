@@ -1,0 +1,13 @@
+Marker	Scaffold ID	Coordinate_on_scaffold
+scaffold112_114241	scaffold112	114241
+scaffold1491_318496	scaffold1491	318496
+scaffold31_1800846	scaffold31	1800846
+scaffold344_309662	scaffold344	309662
+scaffold51_1349321	scaffold51	1349321
+scaffold59_572553	scaffold59	572553
+scaffold156_641874	scaffold156	641874
+scaffold147_367986	scaffold147	367986
+scaffold859_123972	scaffold859	123972
+scaffold297_275113	scaffold297	275113
+scaffold361_14957	scaffold361	14957
+scaffold273_68457	scaffold273	68457

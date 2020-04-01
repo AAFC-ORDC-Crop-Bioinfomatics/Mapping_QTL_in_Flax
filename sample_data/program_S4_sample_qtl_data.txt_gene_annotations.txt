@@ -1,0 +1,263 @@
+Trait	QTL	Chr	Coord_start	Coord_end	chr	ID	start	end	strand	functional annotation	scaffold 	refined scaffold	arabidopsis gene	gene names	dummy
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018097	18332046	18334006	+	Lipase class 3-related protein	scaffold112	scaffold112	AT5G24230.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018098	18338780	18340866	+	GRAS family transcription factor family protein	scaffold112	scaffold112	AT2G01570.1	RGA,RGA1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018099	18362462	18364039	-	GRAS family transcription factor family protein	scaffold112	scaffold112	AT2G01570.1	RGA,RGA1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018100	18395486	18397366	-	GRAS family transcription factor family protein	scaffold112	scaffold112	AT2G01570.1	RGA,RGA1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018101	18399363	18400709	-	GRAS family transcription factor family protein	scaffold112	scaffold112	AT2G01570.1	RGA,RGA1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018102	18406876	18410238	+	Glycosyl hydrolase family protein	scaffold112	scaffold112	AT5G20950.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018103	18414081	18417409	+	Plant invertase/pectin methylesterase inhibitor superfamily	scaffold112	scaffold112	AT3G49220.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018104	18418099	18420349	-	Phosphatidylinositol 3- and 4-kinase ;Ubiquitin family protein	scaffold112	scaffold112	AT5G24240.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018105	18423874	18424212	-	inhibitor-3	scaffold112	scaffold112	AT2G31305.1	INH3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018106	18427772	18430057	-	F-box family protein	scaffold112	scaffold112	AT3G06240.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018107	18438203	18441946	-	prolyl oligopeptidase family protein	scaffold112	scaffold112	AT5G24260.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018108	18444357	18445905	-	Calcium-binding EF-hand family protein	scaffold112	scaffold112	AT5G24270.1	ATSOS3,CBL4,SOS3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018109	18462772	18464688	+	Pentatricopeptide repeat (PPR) superfamily protein	scaffold112	scaffold112	AT3G49240.1	emb1796	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018110	18465608	18467524	-	Protein with RING/U-box and TRAF-like domains	scaffold112	scaffold112	AT4G27880.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018111	18475901	18478730	+		scaffold112	scaffold112	AT2G41150.2		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018112	18481214	18483686	+	dual specificity protein phosphatase-related	scaffold112	scaffold112	AT4G18593.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018113	18488285	18490873	-	Tetratricopeptide repeat (TPR)-like superfamily protein	scaffold112	scaffold112	AT5G01110.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018115	18506695	18509951	+	IQ-domain 21	scaffold112	scaffold112	AT3G49260.3	iqd21	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018116	18511482	18516217	+	Glycogen/starch synthases, ADP-glucose type	scaffold112	scaffold112	AT5G24300.1	ATSS1,SSI,SSI1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018117	18537461	18540314	+	Ribonuclease P protein subunit P38-related	scaffold112	scaffold112	AT5G53020.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018119	18548254	18549867	+	FAD-binding Berberine family protein	scaffold112	scaffold112	AT2G34790.1	EDA28,MEE23	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018120	18564294	18569758	+	P-loop containing nucleoside triphosphate hydrolases superfamily protein	scaffold112	scaffold112	AT3G45850.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018121	18574961	18578879	-		scaffold112	scaffold112	AT3G45830.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018122	18585682	18592151	-	phototropin 1	scaffold112	scaffold112	AT3G45780.1	JK224,NPH1,PHOT1,RPT1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018123	18599476	18601238	+	Protein of unknown function (DUF604)	scaffold112	scaffold112	AT5G41460.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018124	18614981	18618931	+	related to AP2.7	scaffold112	scaffold112	AT2G28550.3	RAP2.7,TOE1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018125	18621289	18625955	-	RNA binding (RRM/RBD/RNP motifs) family protein	scaffold112	scaffold112	AT3G45630.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018126	18636810	18641520	-	RNA binding (RRM/RBD/RNP motifs) family protein	scaffold112	scaffold112	AT3G45630.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018127	18648825	18650440	-	mitogen-activated protein kinase 3	scaffold112	scaffold112	AT3G45640.1	ATMAPK3,ATMPK3,MPK3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018128	18657611	18660101	+	arogenate dehydratase 2	scaffold112	scaffold112	AT3G07630.1	ADT2	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018129	18666819	18672877	+	vacuolar proton ATPase A1	scaffold112	scaffold112	AT2G28520.1	VHA-A1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018130	18679963	18681441	+	ATPase family associated with various cellular activities (AAA) 	scaffold112	scaffold112	AT1G21690.3	EMB1968,RFC4	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018131	18683208	18684151	+	Pollen Ole e 1 allergen and extensin family protein	scaffold112	scaffold112	AT1G29140.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018132	18692108	18697375	+	NRAMP metal ion transporter 6	scaffold112	scaffold112	AT1G15960.1	ATNRAMP6,NRAMP6	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018133	18698181	18700033	-	6,7-dimethyl-8-ribityllumazine synthase / DMRL synthase / lumazine synthase / riboflavin synthase	scaffold112	scaffold112	AT2G44050.1	COS1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018134	18700159	18705685	-	MATE efflux family protein	scaffold112	scaffold112	AT1G15170.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018135	18707231	18711041	-	MATE efflux family protein	scaffold112	scaffold112	AT1G15170.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018136	18714914	18719183	-	MATE efflux family protein	scaffold112	scaffold112	AT1G71140.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018137	18720784	18722858	+	8-oxoguanine-DNA glycosylase 1	scaffold112	scaffold112	AT1G21710.1	ATOGG1,OGG1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018138	18723149	18729217	-	beta-galactosidase 16	scaffold112	scaffold112	AT1G77410.1	BGAL16	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018139	18730299	18730730	+	Translation protein SH3-like family protein	scaffold112	scaffold112	AT3G49910.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018140	18735963	18736649	+	RING/U-box superfamily protein	scaffold112	scaffold112	AT3G19910.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018142	18748326	18749493	-	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein	scaffold112	scaffold112	AT1G01720.1	ANAC002,ATAF1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018143	18761120	18761488	+	Cwf15 / Cwc15 cell cycle control family protein	scaffold112	scaffold112	AT3G13200.1	EMB2769	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018144	18761835	18763971	-	replication factor C subunit 3	scaffold112	scaffold112	AT1G77470.1	RFC3,RFC5	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018145	18764999	18773363	+	P-loop containing nucleoside triphosphate hydrolases superfamily protein	scaffold112	scaffold112	AT1G21730.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018146	18773626	18775879	-	Eukaryotic aspartyl protease family protein	scaffold112	scaffold112	AT1G77480.2		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018147	18777375	18779476	-	methyltransferases;nucleic acid binding	scaffold112	scaffold112	AT3G26410.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018148	18779674	18782216	-	Eukaryotic aspartyl protease family protein	scaffold112	scaffold112	AT1G44130.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018149	18790764	18792717	-	methyltransferases;nucleic acid binding	scaffold112	scaffold112	AT3G26410.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018150	18795175	18795870	+	Vacuolar iron transporter (VIT) family protein	scaffold112	scaffold112	AT3G43660.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018151	18798410	18799925	-	Protein of unknown function (DUF1997)	scaffold112	scaffold112	AT4G31115.2		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018152	18803029	18804538	+	HSP40/DnaJ peptide-binding protein	scaffold112	scaffold112	AT1G11040.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018153	18804849	18808403	-	aldehyde dehydrogenase 3H1	scaffold112	scaffold112	AT1G44170.1	ALDH3H1,ALDH4	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018154	18810981	18813635	+	RNA polymerase I specific transcription initiation factor RRN3 protein	scaffold112	scaffold112	AT1G30590.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018155	18815138	18818643	+	thylakoidal ascorbate peroxidase	scaffold112	scaffold112	AT1G77490.1	TAPX	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018156	18820183	18823235	+	PDI-like 1-1	scaffold112	scaffold112	AT1G21750.1	ATPDI5,ATPDIL1-1,PDI5,PDIL1-1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018157	18824351	18825010	-	cytochrome P450, family 96, subfamily A, polypeptide 9	scaffold112	scaffold112	AT4G39480.1	CYP96A9	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018158	18825969	18826295	-	cytochrome P450, family 96, subfamily A, polypeptide 5	scaffold112	scaffold112	AT2G21910.1	CYP96A5	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018159	18826676	18827200	-	cytochrome P450, family 96, subfamily A, polypeptide 12	scaffold112	scaffold112	AT4G39510.1	CYP96A12	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018160	18829631	18830209	-	cytochrome P450, family 96, subfamily A, polypeptide 1	scaffold112	scaffold112	AT2G23180.1	CYP96A1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018161	18834173	18834691	-	cytochrome P450, family 96, subfamily A, polypeptide 9	scaffold112	scaffold112	AT4G39480.1	CYP96A9	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018162	18834998	18836023	-	cytochrome P450, family 96, subfamily A, polypeptide 10	scaffold112	scaffold112	AT4G39490.1	CYP96A10	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10018163	18837725	18839252	-	Chlorophyll A-B binding family protein	scaffold112	scaffold112	AT1G44575.1	NPQ4,PSBS	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10000889	17824268	17827217	+	calcium-dependent protein kinase 17	scaffold1936	scaffold1936	AT5G12180.1	CPK17	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10000891	17838418	17845569	-	CRT (chloroquine-resistance transporter)-like transporter 3	scaffold1936	scaffold1936	AT5G12170.2	CLT3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10000892	17848746	17849884	-	Pentatricopeptide repeat (PPR) superfamily protein	scaffold1936	scaffold1936	AT1G62350.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10000893	17874081	17876694	+	GDSL-like Lipase/Acylhydrolase superfamily protein	scaffold1936	scaffold1936	AT1G33811.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026718	16819126	16821989	+	Ubiquitin-like superfamily protein	scaffold361	scaffold361	AT2G43210.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026720	16823073	16823444	-	AP2/B3-like transcriptional factor family protein	scaffold361	scaffold361	AT3G18990.1	REM39,VRN1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026721	16829325	16830062	+	ARM repeat superfamily protein	scaffold361	scaffold361	AT3G02710.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026722	16832339	16832494	+	glutathione S-transferase TAU 11	scaffold361	scaffold361	AT1G69930.1	ATGSTU11,GSTU11	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026723	16840685	16841086	+	Disease resistance protein (TIR-NBS-LRR class) family	scaffold361	scaffold361	AT4G36150.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026724	16844282	16845198	-	AP2/B3-like transcriptional factor family protein	scaffold361	scaffold361	AT4G33280.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026725	16848529	16856625	-	trithorax-like protein 2	scaffold361	scaffold361	AT1G05830.1	ATX2,SDG30	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026726	16865088	16869781	+	ARM repeat superfamily protein	scaffold361	scaffold361	AT2G31660.1	SAD2,URM9	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026727	16869890	16871813	+	ARM repeat superfamily protein	scaffold361	scaffold361	AT2G31660.1	SAD2,URM9	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026729	16887854	16889844	-	pectin methylesterase 61	scaffold361	scaffold361	AT3G59010.1	PME61	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026730	16897962	16898402	+	ILI1 binding bHLH 1	scaffold361	scaffold361	AT2G43060.1	IBH1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026731	16902595	16904283	-	RAB GTPase homolog A5D	scaffold361	scaffold361	AT2G31680.1	AtRABA5d,RABA5d	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026732	16912913	16913308	-	Far-red impaired responsive (FAR1) family protein	scaffold361	scaffold361	AT3G07500.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026733	16917343	16918291	-	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	scaffold361	scaffold361	AT2G43140.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026735	16926320	16927813	-	alpha/beta-Hydrolases superfamily protein	scaffold361	scaffold361	AT2G31690.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026736	16932897	16934047	+	HXXXD-type acyl-transferase family protein	scaffold361	scaffold361	AT3G26040.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026737	16936245	16937084	+	HXXXD-type acyl-transferase family protein	scaffold361	scaffold361	AT5G41040.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026738	16939832	16941124	+		scaffold361	scaffold361	AT1G78170.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026739	16961558	16963181	+	P-loop containing nucleoside triphosphate hydrolases superfamily protein	scaffold361	scaffold361	AT1G20920.2		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026741	16996630	17001902	+	ENTH/VHS family protein	scaffold361	scaffold361	AT2G43160.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026742	17003703	17006219	+	calcium-dependent protein kinase 32	scaffold361	scaffold361	AT3G57530.1	ATCPK32,CDPK32,CPK32	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026743	17006953	17015042	-	Phosphoenolpyruvate carboxylase family protein	scaffold361	scaffold361	AT2G43180.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026744	17015675	17018882	-	Eukaryotic protein of unknown function (DUF914)	scaffold361	scaffold361	AT3G59310.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026745	17036219	17038143	-	magnesium transporter 4	scaffold361	scaffold361	AT3G19640.1	MGT4,MRS2-3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026746	17043422	17043898	-	magnesium transporter 4	scaffold361	scaffold361	AT3G19640.1	MGT4,MRS2-3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026747	17044681	17048941	+	Tetratricopeptide repeat (TPR)-like superfamily protein	scaffold361	scaffold361	AT1G06710.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026748	17058261	17060085	+	Peroxidase superfamily protein	scaffold361	scaffold361	AT5G19890.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026749	17061536	17062454	+	early nodulin-like protein 20	scaffold361	scaffold361	AT2G27035.1	AtENODL20,ENODL20	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026750	17064405	17069594	-	Argonaute family protein	scaffold361	scaffold361	AT5G21150.1	AGO9	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026751	17077206	17079303	+	Leucine-rich repeat (LRR) family protein	scaffold361	scaffold361	AT5G21090.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026753	17099778	17104751	+	Plant L-ascorbate oxidase	scaffold361	scaffold361	AT5G21105.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026754	17106899	17110018	+	Nucleotidylyl transferase superfamily protein	scaffold361	scaffold361	AT3G04600.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026756	17134471	17137673	+	Leucine-rich repeat protein kinase family protein	scaffold361	scaffold361	AT2G27060.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026757	17139362	17143321	+	Copper amine oxidase family protein	scaffold361	scaffold361	AT1G31690.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026758	17149409	17151012	+	organic cation/carnitine transporter4	scaffold361	scaffold361	AT3G20660.1	4-Oct,AtOCT4	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026759	17152327	17152980	-	Protein kinase superfamily protein	scaffold361	scaffold361	AT1G66930.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026760	17153305	17154218	-		scaffold361	scaffold361	AT1G11915.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026761	17159664	17161647	+	Protein kinase superfamily protein	scaffold361	scaffold361	AT1G67000.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026762	17163401	17163745	-	Late embryogenesis abundant (LEA) hydroxyproline-rich glycoprotein family	scaffold361	scaffold361	AT2G27080.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026763	17175795	17178580	-	Protein of unknown function (DUF630 and DUF632)	scaffold361	scaffold361	AT2G27090.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026764	17184323	17185840	-		scaffold361	scaffold361	AT5G21070.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026765	17189168	17189470	-	NB-ARC domain-containing disease resistance protein	scaffold361	scaffold361	AT3G07040.1	RPM1,RPS3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026766	17194644	17199333	+	C2H2 zinc-finger protein SERRATE (SE)	scaffold361	scaffold361	AT2G27100.1	SE	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026767	17200535	17202268	-	FAR1-related sequence 3	scaffold361	scaffold361	AT2G27110.1	FRS3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026768	17210106	17210522	+	Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	scaffold361	scaffold361	AT2G27130.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026769	17211343	17213339	+	Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	scaffold361	scaffold361	AT3G43720.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026770	17214327	17215922	+	F-box protein 2	scaffold361	scaffold361	AT5G21040.1	FBX2	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026771	17216276	17218317	+	SGNH hydrolase-type esterase superfamily protein	scaffold361	scaffold361	AT4G10950.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026772	17221431	17221805	+	Pyridine nucleotide-disulphide oxidoreductase family protein	scaffold361	scaffold361	AT1G74470.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026773	17222793	17226514	+	TCP-1/cpn60 chaperonin family protein	scaffold361	scaffold361	AT3G11830.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026774	17227645	17229902	-	NADH:cytochrome B5 reductase 1	scaffold361	scaffold361	AT5G17770.1	ATCBR,CBR,CBR1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026775	17232533	17235480	-	FAD-binding Berberine family protein	scaffold361	scaffold361	AT5G44390.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026777	17277953	17278738	-	Ribose 5-phosphate isomerase, type A protein	scaffold361	scaffold361	AT1G71100.1	RSW10	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026778	17279207	17280567	-	Pentatricopeptide repeat (PPR) superfamily protein	scaffold361	scaffold361	AT4G14170.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026779	17284571	17284996	+	cystatin B	scaffold361	scaffold361	AT3G12490.2	ATCYS6,ATCYSB,CYSB	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026780	17287892	17289902	-	Histone superfamily protein	scaffold361	scaffold361	AT5G19490.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026781	17303483	17305528	+	Ubiquitin-associated/translation elongation factor EF1B protein	scaffold361	scaffold361	AT2G26920.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026783	17318296	17321371	-	4-(cytidine 5\'-phospho)-2-C-methyl-D-erithritol kinase	scaffold361	scaffold361	AT2G26930.1	ATCDPMEK,CDPMEK,ISPE,PDE277	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026784	17327597	17329184	+	Glutathione S-transferase, C-terminal-like;Translation elongation  factor EF1B/ribosomal protein S6	scaffold361	scaffold361	AT5G12110.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026787	17359973	17362996	+	myb domain protein 65	scaffold361	scaffold361	AT3G11440.1	ATMYB65,MYB65	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026788	17365821	17369588	+	Calcineurin-like metallo-phosphoesterase superfamily protein	scaffold361	scaffold361	AT3G03305.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026789	17394834	17395418	-	F-box and associated interaction domains-containing protein	scaffold361	scaffold361	AT3G07870.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026790	17396376	17401007	-	cyclin-dependent kinase C;1	scaffold361	scaffold361	AT5G10270.1	CDKC;1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026791	17406793	17409216	+	Pentatricopeptide repeat (PPR) superfamily protein	scaffold361	scaffold361	AT1G52620.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026792	17409850	17412544	-	O-fucosyltransferase family protein	scaffold361	scaffold361	AT1G52630.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026793	17427714	17429334	-	UDP-glucosyl transferase 71B6	scaffold361	scaffold361	AT3G21780.1	UGT71B6	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026795	17444761	17446161	-	UDP-glucosyl transferase 71B1	scaffold361	scaffold361	AT3G21750.1	UGT71B1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026797	17466373	17468398	+		scaffold361	scaffold361	AT5G11280.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026798	17468967	17471300	-	Pectin lyase-like superfamily protein	scaffold361	scaffold361	AT1G80170.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026800	17482076	17482933	-	Protein of unknown function (DUF1644)	scaffold361	scaffold361	AT3G25910.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026801	17490232	17497219	+	2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	scaffold361	scaffold361	AT5G24530.1	DMR6	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026802	17497719	17501789	-	transferases;nucleotidyltransferases	scaffold361	scaffold361	AT5G19485.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026803	17508445	17510205	+	Cyclin B1;4	scaffold361	scaffold361	AT2G26760.1	CYCB1;4	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026805	17520410	17521000	-	molybdopterin biosynthesis MoaE family protein	scaffold361	scaffold361	AT2G43760.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026806	17523760	17527389	-	Plant protein of unknown function (DUF936)	scaffold361	scaffold361	AT1G08760.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026807	17541598	17542710	-	purine permease 3	scaffold361	scaffold361	AT1G28220.1	ATPUP3,PUP3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026809	17561480	17573123	-	plectin-related	scaffold361	scaffold361	AT2G26770.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026810	17596288	17596719	+	Receptor-like protein kinase-related family protein	scaffold361	scaffold361	AT1G63600.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026811	17597376	17597567	-	Pentatricopeptide repeat (PPR) superfamily protein	scaffold361	scaffold361	AT2G13600.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026812	17610202	17615361	+	laccase 14	scaffold361	scaffold361	AT5G09360.1	LAC14	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026813	17624410	17626202	+	beta-6 tubulin	scaffold361	scaffold361	AT5G12250.1	TUB6	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026814	17642423	17642794	-	RNA-binding (RRM/RBD/RNP motifs) family protein	scaffold361	scaffold361	AT5G12190.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026815	17651227	17651598	-	RNA-binding (RRM/RBD/RNP motifs) family protein	scaffold361	scaffold361	AT5G12190.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026816	17668847	17670151	-	F-box and associated interaction domains-containing protein	scaffold361	scaffold361	AT4G12560.1	CPR30	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026817	17670984	17675362	-	pyrimidine 2	scaffold361	scaffold361	AT5G12200.1	PYD2	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026818	17676952	17682467	+	las1-like family protein	scaffold361	scaffold361	AT5G12220.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026819	17686832	17687816	+	heat shock transcription factor  B4	scaffold361	scaffold361	AT1G46264.1	AT-HSFB4,HSFB4,SCZ	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026822	17715884	17757385	-	Putative methyltransferase family protein	scaffold361	scaffold361	AT2G26810.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026823	17725076	17728965	+	Aldolase superfamily protein	scaffold361	scaffold361	AT2G26800.2		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026824	17760327	17761214	-		scaffold361	scaffold361	AT5G12240.2		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10026825	17762636	17763268	-		scaffold361	scaffold361	AT2G44820.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009688	17917457	17919011	-	AP2/B3-like transcriptional factor family protein	scaffold455	scaffold455	AT3G18990.1	REM39,VRN1	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009689	17942727	17945965	+	Telomerase activating protein Est1	scaffold455	scaffold455	AT5G19400.1	SMG7	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009690	17953294	17955515	+	non-specific phospholipase C2	scaffold455	scaffold455	AT2G26870.1	NPC2	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009691	17956378	17958728	-		scaffold455	scaffold455	AT5G13500.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009692	17972692	17973729	+	Calcium-dependent lipid-binding (CaLB domain) family protein	scaffold455	scaffold455	AT5G12300.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009693	17973735	17973959	+	Calcium-dependent lipid-binding (CaLB domain) family protein	scaffold455	scaffold455	AT5G12300.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009695	18005639	18007709	-	RING/U-box superfamily protein	scaffold455	scaffold455	AT5G19430.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009696	18014740	18017382	+	ankyrin repeat family protein	scaffold455	scaffold455	AT5G12320.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009697	18026585	18027136	+	Lateral root primordium (LRP) protein-related	scaffold455	scaffold455	AT5G66350.1	SHI	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009698	18050129	18051001	-		scaffold455	scaffold455	AT5G12340.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009701	18108222	18114673	+	Regulator of chromosome condensation (RCC1) family with FYVE zinc finger domain	scaffold455	scaffold455	AT5G19420.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009702	18118154	18120099	+	Tetratricopeptide repeat (TPR)-like superfamily protein	scaffold455	scaffold455	AT5G27110.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009703	18125241	18127926	+	cysteine-rich RLK (RECEPTOR-like protein kinase) 2	scaffold455	scaffold455	AT1G70520.1	CRK2	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009704	18128344	18128943	-	acyl-activating enzyme 14	scaffold455	scaffold455	AT1G30520.1	AAE14	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009705	18129527	18130539	+	embryo defective 2739	scaffold455	scaffold455	AT4G14590.1	emb2739	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009706	18138555	18140489	-	Tetratricopeptide repeat (TPR)-like superfamily protein	scaffold455	scaffold455	AT3G57090.1	BIGYIN,FIS1A	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009707	18141222	18141601	-	Tetratricopeptide repeat (TPR)-like superfamily protein	scaffold455	scaffold455	AT5G12390.1	FIS1B	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009708	18147741	18152004	+	3\'-5\'-exoribonuclease family protein	scaffold455	scaffold455	AT3G60500.1	CER7,G3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009710	18157459	18159569	-	alanine:glyoxylate aminotransferase	scaffold455	scaffold455	AT2G13360.1	AGT,AGT1,SGAT	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009711	18163677	18173383	-	chromatin remodeling 5	scaffold455	scaffold455	AT2G13370.1	CHR5	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009712	18178116	18179069	-	chromatin remodeling 5	scaffold455	scaffold455	AT2G13370.1	CHR5	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009713	18214236	18216670	-	phytochromobilin:ferredoxin oxidoreductase, chloroplast / phytochromobilin synthase (HY2)	scaffold455	scaffold455	AT3G09150.2	ATHY2,GUN3,HY2	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009714	18220378	18221937	+	sugar transporter 14	scaffold455	scaffold455	AT1G77210.1	AtSTP14,STP14	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009715	18222112	18224086	-	NAD(P)-binding Rossmann-fold superfamily protein	scaffold455	scaffold455	AT4G31530.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009716	18236309	18238870	+	indigoidine synthase A family protein	scaffold455	scaffold455	AT1G50510.1		1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009717	18246366	18247778	+	scarecrow-like 3	scaffold455	scaffold455	AT1G50420.1	SCL-3,SCL3	1
+PM	QPM-crc-LG1 	1	16920407	18739647	1	Lus10009718	18248314	18251987	-	O-acyltransferase (WSD1-like) family protein	scaffold455	scaffold455	AT3G49200.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023399	3909760	3910080	+	ROTUNDIFOLIA like 8	scaffold1216	scaffold1216	AT2G39705.1	DVL11,RTFL8	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023400	3886139	3889585	-	actin-related protein 5	scaffold1216	scaffold1216	AT3G12380.1	ARP5,ATARP5	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023401	3883728	3885763	+	FIZZY-related 3	scaffold1216	scaffold1216	AT5G13840.1	FZR3	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023402	3881202	3882785	+	FtsJ-like methyltransferase family protein	scaffold1216	scaffold1216	AT5G13830.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023404	3876852	3879598	+	SCARECROW-like 14	scaffold1216	scaffold1216	AT1G07530.1	ATGRAS2,GRAS2,SCL14	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023406	3869590	3872425	+	telomeric DNA binding protein 1	scaffold1216	scaffold1216	AT5G13820.1	ATBP-1,ATBP1,ATTBP1,HPPBF-1,TBP1	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023407	3859352	3860852	-	expansin A4	scaffold1216	scaffold1216	AT2G39700.1	ATEXP4,ATEXPA4,ATHEXP ALPHA 1.6,EXPA4	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023408	3850513	3855909	-	protein affected traf&#64257;cking 2	scaffold1216	scaffold1216	AT3G55480.2	PAT2	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023409	3849290	3850000	+	Protein of unknown function, DUF547	scaffold1216	scaffold1216	AT3G12540.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023410	3846485	3848352	+	Calcium-dependent lipid-binding (CaLB domain) family protein	scaffold1216	scaffold1216	AT3G55470.2		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023411	3834655	3845130	+	PLATZ transcription factor family protein	scaffold1216	scaffold1216	AT1G21000.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023412	3837208	3838818	-	Protein of unknown function (DUF506) 	scaffold1216	scaffold1216	AT2G39650.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023413	3830315	3831055	-		scaffold1216	scaffold1216	AT3G55420.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023414	3825684	3827757	-	Nucleotide-diphospho-sugar transferases superfamily protein	scaffold1216	scaffold1216	AT2G39630.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023415	3823122	3824021	-	ENTH/VHS family protein	scaffold1216	scaffold1216	AT3G46540.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023416	3820613	3822344	+	Uncharacterised protein family (UPF0497)	scaffold1216	scaffold1216	AT2G39530.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023417	3818468	3819888	-	RNA-binding (RRM/RBD/RNP motifs) family protein	scaffold1216	scaffold1216	AT5G59950.5		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023418	3814777	3817200	+	heat shock cognate protein 70-1	scaffold1216	scaffold1216	AT5G02500.1	AT-HSC70-1,HSC70,HSC70-1,HSP70-1	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023419	3809589	3810503	-	heat shock protein 70	scaffold1216	scaffold1216	AT3G12580.1	ATHSP70,HSP70	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023420	3807752	3809263	+	FYD	scaffold1216	scaffold1216	AT3G12570.1	FYD	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023421	3803086	3803877	-		scaffold1216	scaffold1216	AT5G59350.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023422	3797445	3800443	+	Prenyltransferase family protein	scaffold1216	scaffold1216	AT2G39550.1	ATGGT-IB,GGB,PGGT-I	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023423	3794271	3796481	+	heat shock protein 70	scaffold1216	scaffold1216	AT3G12580.1	ATHSP70,HSP70	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023425	3782539	3783726	+	F-box/RNI-like/FBD-like domains-containing protein	scaffold1216	scaffold1216	AT5G56440.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023426	3779983	3782266	-	IKI3 family protein	scaffold1216	scaffold1216	AT5G13680.1	ABO1,ELO2	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023427	3777700	3779816	-	IKI3 family protein	scaffold1216	scaffold1216	AT5G13680.1	ABO1,ELO2	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023428	3771589	3776457	+	actin depolymerizing factor 4	scaffold1216	scaffold1216	AT5G59890.1	ADF4,ATADF4	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023429	3767766	3768456	-	Ribosomal protein S8 family protein	scaffold1216	scaffold1216	AT5G59850.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023430	3762491	3764899	-	RAB GTPase homolog 8A	scaffold1216	scaffold1216	AT3G46060.1	ARA-3,ARA3,ATRAB8A,ATRABE1C,RAB8A	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023431	3757115	3759791	-	nodulin MtN21 /EamA-like transporter family protein	scaffold1216	scaffold1216	AT2G39510.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023432	3747226	3748801	-	nodulin MtN21 /EamA-like transporter family protein	scaffold1216	scaffold1216	AT2G39510.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023433	3741768	3742343	+	C2H2-type zinc finger family protein	scaffold1216	scaffold1216	AT2G28710.1		1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023434	3739589	3740310	+	LOB domain-containing protein 24	scaffold1216	scaffold1216	AT3G26660.1	LBD24	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023436	3733128	3734292	-	PsbP-like protein 2	scaffold1216	scaffold1216	AT2G39470.1	PPL2	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023437	3725947	3732607	+	P-glycoprotein  20	scaffold1216	scaffold1216	AT3G55320.1	PGP20	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023438	3724210	3725003	+	ribosomal protein L23AB	scaffold1216	scaffold1216	AT3G55280.1	RPL23AB	1
+PM	QPM-crc-LG7	7	3817603	3817863	7	Lus10023439	3716345	3718596	-	Cation efflux family protein	scaffold1216	scaffold1216	AT2G39450.1	ATMTP11,MTP11	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003188	263132	264257	+	alpha/beta-Hydrolases superfamily protein	scaffold1056	scaffold1056	AT4G10955.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003189	265156	266043	-	Glycine-rich protein family	scaffold1056	scaffold1056	AT1G64450.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003190	267530	269275	-	phosphoinositide 4-kinase gamma 4	scaffold1056	scaffold1056	AT2G46500.1	ATPI4K GAMMA 4,PI4K GAMMA 4,UBDK GAMMA 4	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003191	272403	273577	-	calcineurin B-like protein 8	scaffold1056	scaffold1056	AT1G64480.1	CBL8	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003192	277364	278411	+	Nuclear transport factor 2 (NTF2) family protein	scaffold1056	scaffold1056	AT4G10925.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003193	279777	280295	-		scaffold1056	scaffold1056	AT3G61920.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003194	282536	283651	+	Glutaredoxin family protein	scaffold1056	scaffold1056	AT1G64500.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003195	285421	288267	+	3-ketoacyl-acyl carrier protein synthase I	scaffold1056	scaffold1056	AT5G46290.1	KAS I,KAS1	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003196	291258	296252	+	cellulose synthase like G3	scaffold1056	scaffold1056	AT4G23990.1	ATCSLG3,CSLG3	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003197	298154	304357	+	regulatory particle non-ATPase 12A	scaffold1056	scaffold1056	AT1G64520.1	RPN12a	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003198	300358	302997	-		scaffold1056	scaffold1056	AT4G10890.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003199	307494	311014	+	NIN like protein 7	scaffold1056	scaffold1056	AT4G24020.1	NLP7	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003200	312030	313968	-	Nodulin MtN3 family protein	scaffold1056	scaffold1056	AT4G10850.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003201	317206	319633	-	Tetratricopeptide repeat (TPR)-like superfamily protein	scaffold1056	scaffold1056	AT4G10840.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003202	323224	326367	+	Heat shock protein 70 (Hsp 70) family protein	scaffold1056	scaffold1056	AT5G42020.1	BIP,BIP2	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003203	327536	330775	-	carbon-nitrogen hydrolase family protein	scaffold1056	scaffold1056	AT1G55090.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003204	336640	339049	+	NAD(P)-binding Rossmann-fold superfamily protein	scaffold1056	scaffold1056	AT4G24050.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003205	343565	345951	+	methyltransferases;copper ion binding	scaffold1056	scaffold1056	AT1G64600.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003206	348262	350715	-	Transducin/WD40 repeat-like superfamily protein	scaffold1056	scaffold1056	AT1G64610.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003207	353837	357219	+	Dof-type zinc finger DNA-binding family protein	scaffold1056	scaffold1056	AT4G24060.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003208	366182	369055	+	Dof-type zinc finger DNA-binding family protein	scaffold1056	scaffold1056	AT4G24060.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003209	370573	371047	-	ORMDL family protein	scaffold1056	scaffold1056	AT5G42000.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003210	373223	374992	-		scaffold1056	scaffold1056	AT5G61820.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003211	376018	377764	+	HIT-type Zinc finger family protein	scaffold1056	scaffold1056	AT5G63830.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003212	383625	384698	+	cytochrome BC1 synthesis	scaffold1056	scaffold1056	AT3G50930.1	BCS1	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003213	385863	387458	+	P-loop containing nucleoside triphosphate hydrolases superfamily protein	scaffold1056	scaffold1056	AT5G17740.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003214	388449	390412	+	UBX domain-containing protein	scaffold1056	scaffold1056	AT4G10790.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003215	391932	395766	+	with no lysine (K) kinase 8	scaffold1056	scaffold1056	AT5G41990.1	ATWNK8,WNK8	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003216	395926	396769	+	F-box/RNI-like superfamily protein	scaffold1056	scaffold1056	AT3G58860.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003217	399501	402858	+	oligopeptide transporter 7	scaffold1056	scaffold1056	AT4G10770.1	ATOPT7,OPT7	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003218	404128	405177	+	Biotin/lipoate A/B protein ligase family	scaffold1056	scaffold1056	AT3G29010.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003219	407319	409900	-	Major facilitator superfamily protein	scaffold1056	scaffold1056	AT1G64650.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10003220	411089	411340	-	Phosphoenolpyruvate carboxylase family protein	scaffold1056	scaffold1056	AT4G10750.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10001672	453392	456160	+	methionine gamma-lyase	scaffold2739	scaffold2739	AT1G64660.1	ATMGL,MGL	1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10001673	449563	451519	+	esterase/lipase/thioesterase family protein	scaffold2739	scaffold2739	AT3G50790.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10001674	448034	448498	+	Protein of unknown function, DUF538	scaffold2739	scaffold2739	AT4G24130.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10001675	443216	446595	-	Tetratricopeptide repeat (TPR)-like superfamily protein	scaffold2739	scaffold2739	AT5G41950.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10001676	438146	438925	-		scaffold2739	scaffold2739	AT4G24110.1		1
+PM	QPM-crc-LG9	9	357191	357510	9	Lus10001677	429431	436772	-	Protein kinase superfamily protein	scaffold2739	scaffold2739	AT4G10730.1		1
