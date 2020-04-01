@@ -1,10 +1,7 @@
-**A User Guide for Mapping QTL onto the Most Recent Release of the
-Chromosome-scale Pseudomolecules in Flax**
+#A User Guide for Mapping QTL onto the Most Recent Release of the Chromosome-scale Pseudomolecules in Flax
 
-Frank M. You and Sylvie Cloutier
-
-Ottawa Research and Development Centre, Agriculture and Agri-Food
-Canada, Ottawa, ON K1A 0C6, Canada
+*Frank M. You and Sylvie Cloutier*
+*Ottawa Research and Development Centre, Agriculture and Agri-Food Canada, Ottawa, ON K1A 0C6, Canada*
 
 This user guide provides a brief description of the methods with their
 software tools and database files for mapping QTL onto the most recent
@@ -17,7 +14,7 @@ document (UserGuideS1.doc), and two subfolders "sample\_data" and
 "database\_files". Please copy all scripts and files in the two
 subfolders to a working folder.
 
-1.  **Reference sequences **
+##1.  Reference sequences
 
 The most recent release of the flax pseudomolecules (You et al. 2016)
 includes 15 sequences corresponding to 15 flax chromosomes. Their
@@ -26,31 +23,32 @@ following table:
 
 Sequences of 15 chromosomes in the NCBI database.
 
-  ------------ ---------------- -------------------------
-  Chromosome   NCBI accession   Length of sequence (bp)
-  Lu1          CP027619         29,425,369
-  Lu2          CP027626         25,730,386
-  Lu3          CP027627         26,636,119
-  Lu4          CP027628         19,927,942
-  Lu5          CP027629         17,699,757
-  Lu6          CP027630         18,078,158
-  Lu7          CP027631         18,299,719
-  Lu8          CP027632         23,785,339
-  Lu9          CP027633         22,091,576
-  Lu10         CP027620         18,203,127
-  Lu11         CP027621         19,887,771
-  Lu12         CP027622         20,889,232
-  Lu13         CP027623         20,483,506
-  Lu14         CP027624         19,392,306
-  Lu15         CP027625         15,636,771
-  Total                         316,167,078
-  ------------ ---------------- -------------------------
+ | Chromosome  | NCBI accession   | Length of sequence (bp) |
+ | ----------- | ---------------- | ----------------------- |
+ | Lu1         | CP027619         | 29,425,369	            |
+ | Lu2         | CP027626         | 25,730,386              |
+ | Lu3         | CP027627         | 26,636,119 |
+ | Lu4         | CP027628         | 19,927,942 |
+ | Lu5         | CP027629         | 17,699,757 |
+ | Lu6         | CP027630         | 18,078,158 |
+ | Lu7         | CP027631         | 18,299,719 |
+ | Lu8         | CP027632         | 23,785,339 |
+ | Lu9         | CP027633         | 22,091,576 |
+ | Lu10        | CP027620         | 18,203,127 |
+ | Lu11        | CP027621         | 19,887,771 |
+ | Lu12        | CP027622         | 20,889,232 |
+ | Lu13        | CP027623         | 20,483,506 |
+ | Lu14        | CP027624         | 19,392,306 |
+ | Lu15        | CP027625         | 15,636,771 |
+ | ----------- | ---------------- | ---------- |
+ | Total       |                  | 316,167,078 |
+ 
 
 These sequences can be downloaded directly from the NCBI nucleotide
 databases by searching individual accession number, for example, at
-[[https://www.ncbi.nlm.nih.gov/nuccore/CP027619]{.underline}](https://www.ncbi.nlm.nih.gov/nuccore/CP027619),
+*https://www.ncbi.nlm.nih.gov/nuccore/CP027619*, 
 or by using NCBI Batch Entrez for batch download at
-[[https://www.ncbi.nlm.nih.gov/sites/batchentrez]{.underline}](https://www.ncbi.nlm.nih.gov/sites/batchentrez).
+*https://www.ncbi.nlm.nih.gov/sites/batchentrez*.
 All sequences can be saved in a fasta file.
 
 If you only need to convert coordinates of SNPs from the scaffolds based
@@ -59,13 +57,12 @@ pseudomolecules, you do not need to download these sequence. These
 sequences are required only when you map PCR based markers to the flax
 pseudomolecules.
 
-2.  **Mapping PCR based markers to the most recent release of the
-    chromosome-scale pseudomolecules**
+##2.  Mapping PCR based markers to the most recent release of the chromosome-scale pseudomolecules
 
 The electronic PCR (e-PCR) method is used to map paired PCR primers onto
 the flax pseudomolecules (Schuler, 1997). The source code for the e-PCR
 program is freely available
-([[ftp://ncbi.nlm.nih.gov/pub/schuler/e-PCR/]{.underline}](ftp://ncbi.nlm.nih.gov/pub/schuler/e-PCR/)).
+(*ftp://ncbi.nlm.nih.gov/pub/schuler/e-PCR/*).
 
 Two executive programs, "fahash" and "re-PCR", are included in the e-PCR
 program package. You need to download the source code to compile it and
@@ -78,18 +75,19 @@ access them.
 
 Usage:
 
+```
 perl ProgramS1\_prepare\_rePCR\_data.pl
-
--i fasta file name of the reference sequence (\* is allowed)
-
--s genome name as file name prefix
-
--m maximum number of sequences for each database (Default:5000)
+  -i fasta file name of the reference sequence (\* is allowed)
+  -s genome name as file name prefix
+  -m maximum number of sequences for each database (Default:5000)
+```
 
 Default parameters for the "fahash" program are used in the
 ProgramS1\_prepare\_rePCR\_data.pl script:
 
-\$cmd = \"fahash -b \$genome\_hash -w 12 -f3 \$genome\_map\";
+```
+$cmd = \"fahash -b \$genome\_hash -w 12 -f3 \$genome\_map\";
+```
 
 Two output files "\*.famap" and "\*.hash" will be generated in this
 step.
@@ -98,17 +96,15 @@ step.
 
 Usage:
 
+```
 perl ProgramS2\_rePCR\_pipeline.pl
-
 -p primer file (required)
-
 -d reference genome hash file (required, generated from
 ProgramS1\_prepare\_rePCR\_data.pl, both \*.famap and \*.hash must be
 available)
-
 -m number of mismatches (default: 0)
-
 -g number of gaps (default: 0)
+```
 
 **Example:**
 
@@ -117,92 +113,82 @@ available)
 Flax pseudomolecule sequences are saved in a file in fasta format, e.g.,
 **flax\_pseudomolecules.fasta**
 
+```
 perl ProgramS1\_prepare\_rePCR\_data.pl -i flax\_pseudomolecules.fasta
 -s flax\_new\_pseudo
+```
 
 Two output files will be generated in this step:
-
 flax\_new\_pseudo\_1.famap
-
 flax\_new\_pseudo\_1.hash
 
 **Step 2:**
 
+```
 perl ProgramS2\_rePCR\_pipeline.pl -p
 program\_S2\_sample\_marker\_data.txt -d flax\_new\_pseudo\_1.hash
+```
 
 A sample marker file "program\_S2\_sample\_marker\_data.txt" is included
 in the program package. This file contains a header line with four
 columns separated by a tab key (\\t). The last column is the amplicon
 size range of the PCR marker. It must have the following format:
 
-  -- -- -- --
-           
-           
-           
-           
-           
-           
-           
-           
-  -- -- -- --
 
-Primer IDForward PrimerReverse PrimerSize rangeLu2164
-GCATGATCGTTACTTTAGGATGCAATGACGCCATCTTTTGTCC50-1500Lu2183CTTCATGCAGTCCGTTTTTACACAGTTCGTAGTTTACTTGGTGCAG50-1500Lu2532
-GGATAGAAGCTCACCGATGCTTCAGAGCACCAGCAGAAAA50-1500Lu2545TGCTTTGCTAATTTATTATGGTGAGATGGTAGCTGGTGGGTGAAC50-1500Lu2555
-TCCCGCTTTTAATGGTGTTCAATTGGAAGCTCGATTCACG50-1500Lu2560
-CGTGGCTACTAGCAATGTGGTCCTCATGTTCATTGCTTGC50-1500Lu2564
-TTTCAGCTTCGATTGAGACGATCCGTCGAGGTAACAGTCC50-1500
+| Primer ID | Forward Primer | Reverse Primer | Size range |
+| Lu2164    | GCATGATCGTTACTTTAGGATGC   | AATGACGCCATCTTTTGTCC  | 50-1500 |
+| Lu2183    | CTTCATGCAGTCCGTTTTTACA    | CAGTTCGTAGTTTACTTGGTGCAG | 50-1500 |
+| Lu2532    | GGATAGAAGCTCACCGATGC      | TTCAGAGCACCAGCAGAAAA     | 50-1500 |
+| Lu2545    | TGCTTTGCTAATTTATTATGGTGAG | ATGGTAGCTGGTGGGTGAAC     | 50-1500 |
+| Lu2555    | TCCCGCTTTTAATGGTGTTC      | AATTGGAAGCTCGATTCACG     | 50-1500 |
+| Lu2560    | CGTGGCTACTAGCAATGTGG      | TCCTCATGTTCATTGCTTGC     | 50-1500 |
+| Lu2564    | TTTCAGCTTCGATTGAGACG      | ATCCGTCGAGGTAACAGTCC     | 50-1500 |
 
 The "flax\_new\_pseudo\_1.hash" and "flax\_new\_pseudo\_1.famap"
 generated from Step 1 must be in the same working directory.
 
 An output file
 "program\_S2\_sample\_marker\_data.txt\_primer\_rePCR\_results.txt" will
-be generated:
+be generated: 
 
-  -- -- -- -- -- -- -- --
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-  -- -- -- -- -- -- -- --
-
+```
+| \#-sts  | seq | strand | from | to | mism | gaps | act\_len/exp\_len |
+| Lu2164  | 1 | - | 22948222 | 22948580 | 0 | 0 | 359/50-1500 |
+| Lu2183  | 1 | - | 26435050 | 26435329 | 0 | 0 | 280/50-1500 |
+| Lu2555  | 6 | + | 14948801 | 14948986 | 0 | 0 | 186/50-1500 |
+| Lu2560  | 6 | - | 13553559 | 13553779 | 0 | 0 | 221/50-1500 |
+| Lu2564  | 6 | - | 13620999 | 13621234 | 0 | 0 | 236/50-1500 |
+| Lu2532  | 7 | - | 661757   | 662020   | 0 | 0 | 264/50-1500 |
 \#-
-stsseqstrandfromtomismgapsact\_len/exp\_lenLu21641-229482222294858000359/50-1500Lu21831-264350502643532900280/50-1500Lu25556+149488011494898600186/50-1500Lu25606-135535591355377900221/50-1500Lu25646-136209991362123400236/50-1500Lu25327-66175766202000264/50-1500\#-
 Done
+```
 
-3.  **Mapping SNPs on scaffold reference sequences to the most recent
-    release of the chromosome-scale pseudomolecules**
+##3.  Mapping SNPs on scaffold reference sequences to the most recent release of the chromosome-scale pseudomolecules
 
 Usage:
 
+```
 perl ProgramS3\_convert\_scaffold\_coordinates\_to\_pseudochr.pl
-
--m scaffold to pseudomolecule mapping file. Table S4 must be used.
-
--d scaffold coordinate data file which must have three column: marker
+  -m scaffold to pseudomolecule mapping file. Table S4 must be used.
+  -d scaffold coordinate data file which must have three column: marker
 name, scaffold IDs and coordinates
+```
 
 The "program\_S3\_sample\_marker\_data.txt" is a sample marker data file
 that must contain three columns separated by a tab key (\\t):
 
   ---------------------- -------------- --------------------------
-  Marker                 Scaffold ID    Coordinate\_on\_scaffold
-  scaffold112\_114241    scaffold112    114241
-  scaffold1491\_318496   scaffold1491   318496
-  scaffold31\_1800846    scaffold31     1800846
-  scaffold344\_309662    scaffold344    309662
-  scaffold51\_1349321    scaffold51     1349321
-  scaffold59\_572553     scaffold59     572553
-  scaffold156\_641874    scaffold156    641874
-  scaffold147\_367986    scaffold147    367986
-  scaffold859\_123972    scaffold859    123972
-  scaffold297\_275113    scaffold297    275113
+ | Marker                 Scaffold ID    Coordinate\_on\_scaffold
+ | scaffold112\_114241    scaffold112    114241
+ | scaffold1491\_318496   scaffold1491   318496
+ | scaffold31\_1800846    scaffold31     1800846
+ | scaffold344\_309662    scaffold344    309662
+ | scaffold51\_1349321    scaffold51     1349321
+ | scaffold59\_572553     scaffold59     572553
+ | scaffold156\_641874    scaffold156    641874
+ | scaffold147\_367986    scaffold147    367986
+ | scaffold859\_123972    scaffold859    123972
+ | scaffold297\_275113    scaffold297    275113
   scaffold361\_14957     scaffold361    14957
   scaffold273\_68457     scaffold273    68457
   ---------------------- -------------- --------------------------
