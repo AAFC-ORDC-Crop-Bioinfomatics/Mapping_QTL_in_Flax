@@ -1,4 +1,4 @@
-#A User Guide for Mapping QTL onto the Most Recent Release of the Chromosome-scale Pseudomolecules in Flax
+# A User Guide for Mapping QTL onto the Most Recent Release of the Chromosome-scale Pseudomolecules in Flax
 
 *Frank M. You and Sylvie Cloutier*
 *Ottawa Research and Development Centre, Agriculture and Agri-Food Canada, Ottawa, ON K1A 0C6, Canada*
@@ -14,7 +14,7 @@ document (UserGuideS1.doc), and two subfolders "sample\_data" and
 "database\_files". Please copy all scripts and files in the two
 subfolders to a working folder.
 
-##1.  Reference sequences
+## 1.  Reference sequences
 
 The most recent release of the flax pseudomolecules (You et al. 2016)
 includes 15 sequences corresponding to 15 flax chromosomes. Their
@@ -40,7 +40,6 @@ Sequences of 15 chromosomes in the NCBI database.
  | Lu13        | CP027623         | 20,483,506 |
  | Lu14        | CP027624         | 19,392,306 |
  | Lu15        | CP027625         | 15,636,771 |
- | ----------- | ---------------- | ---------- |
  | Total       |                  | 316,167,078 |
  
 
@@ -57,7 +56,7 @@ pseudomolecules, you do not need to download these sequence. These
 sequences are required only when you map PCR based markers to the flax
 pseudomolecules.
 
-##2.  Mapping PCR based markers to the most recent release of the chromosome-scale pseudomolecules
+## 2.  Mapping PCR based markers to the most recent release of the chromosome-scale pseudomolecules
 
 The electronic PCR (e-PCR) method is used to map paired PCR primers onto
 the flax pseudomolecules (Schuler, 1997). The source code for the e-PCR
@@ -134,8 +133,8 @@ in the program package. This file contains a header line with four
 columns separated by a tab key (\\t). The last column is the amplicon
 size range of the PCR marker. It must have the following format:
 
-
-| Primer ID | Forward Primer | Reverse Primer | Size range |
+```
+  Primer ID	Forward Primer	Reverse Primer	Size range
 | Lu2164    | GCATGATCGTTACTTTAGGATGC   | AATGACGCCATCTTTTGTCC  | 50-1500 |
 | Lu2183    | CTTCATGCAGTCCGTTTTTACA    | CAGTTCGTAGTTTACTTGGTGCAG | 50-1500 |
 | Lu2532    | GGATAGAAGCTCACCGATGC      | TTCAGAGCACCAGCAGAAAA     | 50-1500 |
@@ -143,6 +142,7 @@ size range of the PCR marker. It must have the following format:
 | Lu2555    | TCCCGCTTTTAATGGTGTTC      | AATTGGAAGCTCGATTCACG     | 50-1500 |
 | Lu2560    | CGTGGCTACTAGCAATGTGG      | TCCTCATGTTCATTGCTTGC     | 50-1500 |
 | Lu2564    | TTTCAGCTTCGATTGAGACG      | ATCCGTCGAGGTAACAGTCC     | 50-1500 |
+```
 
 The "flax\_new\_pseudo\_1.hash" and "flax\_new\_pseudo\_1.famap"
 generated from Step 1 must be in the same working directory.
@@ -152,15 +152,15 @@ An output file
 be generated: 
 
 ```
-| \#-sts  | seq | strand | from | to | mism | gaps | act\_len/exp\_len |
-| Lu2164  | 1 | - | 22948222 | 22948580 | 0 | 0 | 359/50-1500 |
-| Lu2183  | 1 | - | 26435050 | 26435329 | 0 | 0 | 280/50-1500 |
-| Lu2555  | 6 | + | 14948801 | 14948986 | 0 | 0 | 186/50-1500 |
-| Lu2560  | 6 | - | 13553559 | 13553779 | 0 | 0 | 221/50-1500 |
-| Lu2564  | 6 | - | 13620999 | 13621234 | 0 | 0 | 236/50-1500 |
-| Lu2532  | 7 | - | 661757   | 662020   | 0 | 0 | 264/50-1500 |
-\#-
-Done
+ \#-sts	seq	strand	from	to	mism	gaps	act\_len/exp\_len
+ Lu2164	1      - | 22948222 | 22948580 | 0 | 0 | 359/50-1500 |
+ Lu2183	1      - | 26435050 | 26435329 | 0 | 0 | 280/50-1500 |
+ Lu2555	6      + | 14948801 | 14948986 | 0 | 0 | 186/50-1500 |
+ Lu2560	6      - | 13553559 | 13553779 | 0 | 0 | 221/50-1500 |
+ Lu2564	6      - | 13620999 | 13621234 | 0 | 0 | 236/50-1500 |
+ Lu2532	7      - | 661757   | 662020   | 0 | 0 | 264/50-1500 |
+ \#-
+ Done
 ```
 
 ##3.  Mapping SNPs on scaffold reference sequences to the most recent release of the chromosome-scale pseudomolecules
