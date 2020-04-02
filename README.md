@@ -77,8 +77,8 @@ access them.
 Usage:
 
 ```
-perl ProgramS1\_prepare\_rePCR\_data.pl
-  -i fasta file name of the reference sequence (\* is allowed)
+perl ProgramS1_prepare_rePCR_data.pl
+  -i fasta file name of the reference sequence (* is allowed)
   -s genome name as file name prefix
   -m maximum number of sequences for each database (Default:5000)
 ```
@@ -87,7 +87,7 @@ Default parameters for the "fahash" program are used in the
 ProgramS1\_prepare\_rePCR\_data.pl script:
 
 ```
-$cmd = \"fahash -b \$genome\_hash -w 12 -f3 \$genome\_map\";
+$cmd = "fahash -b $genome_hash -w 12 -f3 $genome_map";
 ```
 
 Two output files "\*.famap" and "\*.hash" will be generated in this
@@ -98,11 +98,10 @@ step.
 Usage:
 
 ```
-perl ProgramS2\_rePCR\_pipeline.pl
+perl ProgramS2_rePCR_pipeline.pl
 -p primer file (required)
 -d reference genome hash file (required, generated from
-ProgramS1\_prepare\_rePCR\_data.pl, both \*.famap and \*.hash must be
-available)
+   ProgramS1_prepare_rePCR_data.pl, both *.famap and *.hash must be available)
 -m number of mismatches (default: 0)
 -g number of gaps (default: 0)
 ```
@@ -115,19 +114,20 @@ Flax pseudomolecule sequences are saved in a file in fasta format, e.g.,
 **flax\_pseudomolecules.fasta**
 
 ```
-perl ProgramS1\_prepare\_rePCR\_data.pl -i flax\_pseudomolecules.fasta
--s flax\_new\_pseudo
+perl ProgramS1_prepare_rePCR_data.pl -i flax_pseudomolecules.fasta
+-s flax_new_pseudo
 ```
 
-Two output files will be generated in this step:
-flax\_new\_pseudo\_1.famap
-flax\_new\_pseudo\_1.hash
+Two output files will be generated in this step:  
+flax\_new\_pseudo\_1.famap  
+flax\_new\_pseudo\_1.hash  
 
 **Step 2:**
 
 ```
-perl ProgramS2\_rePCR\_pipeline.pl -p
-program\_S2\_sample\_marker\_data.txt -d flax\_new\_pseudo\_1.hash
+perl ProgramS2_rePCR_pipeline.pl 
+  -p program_S2_sample_marker_data.txt 
+  -d flax_new_pseudo_1.hash
 ```
 
 A sample marker file "program\_S2\_sample\_marker\_data.txt" is included
@@ -154,14 +154,14 @@ An output file
 be generated: 
 
 ```
- \#-sts	seq   strand   from	  to	   mism	  gaps	act\_len/exp\_len
+ #-sts	seq   strand   from	  to	   mism	  gaps	act_len/exp_len
  Lu2164	1      -      22948222   22948580   0      0      359/50-1500 
  Lu2183	1      -      26435050   26435329   0      0      280/50-1500 
  Lu2555	6      +      14948801   14948986   0      0      186/50-1500 
  Lu2560	6      -      13553559   13553779   0      0      221/50-1500 
  Lu2564	6      -      13620999   13621234   0      0      236/50-1500 
  Lu2532	7      -      661757     662020     0      0      264/50-1500 
- \#-
+ #-
  Done
 ```
 
@@ -170,29 +170,29 @@ be generated:
 Usage:
 
 ```
-perl ProgramS3\_convert\_scaffold\_coordinates\_to\_pseudochr.pl
+perl ProgramS3_convert_scaffold_coordinates_to_pseudochr.pl
   -m scaffold to pseudomolecule mapping file. Table S4 must be used.
   -d scaffold coordinate data file which must have three column: marker
-name, scaffold IDs and coordinates
+     name, scaffold IDs and coordinates
 ```
 
 The "program\_S3\_sample\_marker\_data.txt" is a sample marker data file
 that must contain three columns separated by a tab key (\\t):
 
 ```
-  Marker                 Scaffold ID    Coordinate\_on\_scaffold
-  scaffold112\_114241    scaffold112    114241
-  scaffold1491\_318496   scaffold1491   318496
-  scaffold31\_1800846    scaffold31     1800846
-  scaffold344\_309662    scaffold344    309662
-  scaffold51\_1349321    scaffold51     1349321
-  scaffold59\_572553     scaffold59     572553
-  scaffold156\_641874    scaffold156    641874
-  scaffold147\_367986    scaffold147    367986
-  scaffold859\_123972    scaffold859    123972
-  scaffold297\_275113    scaffold297    275113
-  scaffold361\_14957     scaffold361    14957
-  scaffold273\_68457     scaffold273    68457
+  Marker                 Scaffold ID    Coordinate_on_scaffold
+  scaffold112_114241    scaffold112    114241
+  scaffold1491_318496   scaffold1491   318496
+  scaffold31_1800846    scaffold31     1800846
+  scaffold344_309662    scaffold344    309662
+  scaffold51_1349321    scaffold51     1349321
+  scaffold59_572553     scaffold59     572553
+  scaffold156_641874    scaffold156    641874
+  scaffold147_367986    scaffold147    367986
+  scaffold859_123972    scaffold859    123972
+  scaffold297_275113    scaffold297    275113
+  scaffold361_14957     scaffold361    14957
+  scaffold273_68457     scaffold273    68457
 ```
 
 The
@@ -204,39 +204,40 @@ package.
 **Example:**
 
 ```
-perl ProgramS3\_convert\_scaffold\_coordinates\_to\_pseudochr.pl 
-  -m TableS4\_flax\_scaffolds\_corrdinates\_in\_new\_pseudomolecules.txt 
-  -d program\_S3\_sample\_marker\_data.txt
+perl ProgramS3_convert_scaffold_coordinates_to_pseudochr.pl 
+  -m TableS4_flax_scaffolds_corrdinates_in_new_pseudomolecules.txt 
+  -d program_S3_sample_marker_data.txt
 ```
 
 A "program\_S3\_sample\_marker\_data.txt.converted.txt" will be
 generated:
 
 ```
-Marker        Scaffold ID Coordinate\_on\_scaffold ChrNew\_Chr\_Coord
-scaffold112\_114241   scaffold112114241118444086
-scaffold1491\_318496  scaffold1491318496614006651
-scaffold31\_1800846   scaffold31180084633929932
-scaffold344\_309662   scaffold344309662111008279
-scaffold51\_1349321   scaffold511349321410532424
-scaffold59\_572553    scaffold59572553110051709
-scaffold156\_641874   scaffold15664187435906791
-scaffold147\_367986   scaffold147367986511288517
-scaffold859\_123972   scaffold859123972151939372
-scaffold297\_275113   scaffold297275113116435852
-scaffold361\_14957    scaffold36114957116726904
-scaffold273\_68457    scaffold273684578585113
+Marker               Scaffold ID    Coordinate_on_scaffold  Chr  New_Chr_Coord
+scaffold112_114241   scaffold112    114241                  1     18444086
+scaffold1491_318496  scaffold1491   318496                  6     14006651
+scaffold31_1800846   scaffold31     1800846                 3     3929932
+scaffold344_309662   scaffold344    309662                  1     11008279
+scaffold51_1349321   scaffold51     1349321                 4     10532424
+scaffold59_572553    scaffold59     572553                  1     10051709
+scaffold156_641874   scaffold156    641874                  3     5906791
+scaffold147_367986   scaffold147    367986                  5     11288517
+scaffold859_123972   scaffold859    123972                  15    1939372
+scaffold297_275113   scaffold297    275113                  1     16435852
+scaffold361_14957    scaffold361    14957                   1     16726904
+scaffold273_68457    scaffold273    68457                   8     585113
 ```
 
 The last two columns are the converted results, including chromosome
 numbers and new coordinates on chromosomes.
+
 
 ## 4.  Candidate Gene Scanning of QTL
 
 Usage:
 
 ```
-perl ProgramS4\_flax\_QTL\_candidate\_gene\_scanning.pl
+perl ProgramS4_flax_QTL_candidate_gene_scanning.pl
   -q QTL file
   -d gene annotation file
   -w upstream or downstream window size (bp) (default: 100000 bp)
@@ -247,7 +248,7 @@ provided in the program package. This file must have four columns
 separated by a tab key (\\t):
 
 ```
-Trait    QTL           Chr    Coord\_start    Coord\_end
+Trait    QTL           Chr    Coord_start    Coord_end
 PM       QPM-crc-LG1	1     16920407        18739647
 PM       QPM-crc-LG7    7     3817603         3817863
 PM       QPM-crc-LG9    9     357191          357510
@@ -266,32 +267,35 @@ all genes/RGAs within a total of 200 kb window of both upstream and
 downstream of a QTL on a chromosome will be scanned. You can input a
 different value for the window size.
 
-**Example 1: scan resistance gene analogs within a 200 kb window
-covering upstream and downstream of the QTL position (default) **
+**Example 1: scan resistance gene analogs within a 200 kb window covering upstream and downstream of the QTL position (default)**
 
-perl ProgramS4\_flax\_QTL\_candidate\_gene\_scanning.pl -q
-program\_S4\_sample\_qtl\_data.txt -d TableS6\_flax\_RGA\_coords.txt
+```
+perl ProgramS4_flax_QTL_candidate_gene_scanning.pl 
+  -q program_S4_sample_qtl_data.txt 
+  -d TableS6_flax_RGA_coords.txt
+```
 
 A result file
 "program\_S4\_sample\_qtl\_data.txt\_gene\_annotations.txt" will be
 generated in the following format:
 
-![](media/image1.wmf){width="6.91875in" height="0.99375in"}
 
-**Example 2: scan all protein coding genes within a 200 kb window
-covering upstream and downstream of the QTL position (default)**
+![](image1.jpg)
 
-perl ProgramS4\_flax\_QTL\_candidate\_gene\_scanning.pl -q
-program\_S4\_sample\_qtl\_data.txt -d
-TableS5\_flax\_all\_genes\_coords.txt
+**Example 2: scan all protein coding genes within a 200 kb window covering upstream and downstream of the QTL position (default)**
+
+```
+perl ProgramS4_flax_QTL_candidate_gene_scanning.pl 
+  -q program_S4_sample_qtl_data.txt 
+  -d TableS5_flax_all_genes_coords.txt
+```
 
 A result file with the same file name
 "program\_S4\_sample\_qtl\_data.txt\_gene\_annotations.txt" will be
 generated in the following format that slightly different from Example 1
 (only part of results are shown):
 
-![](media/image2.wmf){width="6.9222222222222225in"
-height="0.7145833333333333in"}
+![](image2.jpg)
 
 **References**
 
